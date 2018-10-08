@@ -1,0 +1,13 @@
+global_costmap:
+
+ #Set the global and robot frames for the costmap
+ global_frame: map
+ robot_base_frame: robot_footprint
+
+ #Set the update and publish frequency of the costmap
+ update_frequency: 5.0
+ publish_frequency: 0.0
+
+ static_map: true
+ rolling_window: false
+ footprint_padding: 0.02
